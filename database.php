@@ -1,8 +1,8 @@
 <?php
 
-	$ip = "localhost";
+	$ip = "18.218.127.164";
 	$user = "root";
-	$password = "";
+	$password = "123";
 
 	$db = "swlab";
 
