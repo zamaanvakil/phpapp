@@ -3,7 +3,7 @@
 	$a = $_POST['email'];
 	$b = $_POST['password'];
 
-	$ip = "localhost";
+	$ip = "18.218.127.164";
 
 	$sql="SELECT * FROM user where email='".$a."' and password='".$b."' ";
 	$fetch = mysqli_query($conn,$sql);
