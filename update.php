@@ -11,7 +11,7 @@
 	$sql = "UPDATE user_details SET name='".$name."' , branch='".$branch."' , mobile = '".$mobile."' WHERE email='".$email."' ";
 	$fetch = mysqli_query($conn,$sql);
 
-	$ip = "localhost";
+	$ip = "18.218.127.164";
 	header("Location: http://".$ip."/swlab/home.php");
 ?>
 
