@@ -1,5 +1,5 @@
 <?php
-$ip = "localhost";
+$ip = "18.218.127.164";
 if(isset($_SESSION)){
     header("Location: http://".$ip."/swlab/home.php");
 }
